@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     if (token) {
       // Validate token with backend, store user if valid.
       // Replace this with your backend validation logic
-      const storedUser = { username: 'exampleUser'}; // Replace with your backend response
+      const storedUser = { username: 'exampleUser'}; // Replace with your backend responsee
       setIsLoggedIn(true);
       setUser(storedUser);
     }
